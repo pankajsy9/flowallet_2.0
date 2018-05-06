@@ -3,7 +3,12 @@ FloWallet
 
 FloWallet can only be used to send FLO with comments, see the transaction history and wallet balance.
 
-How to install:
+
+Installation:
+
+Windows OS users have to run the commands present inside the shell script.
+
+Below are the steps for Linux =>
 
 1. In the terminal reach the directory where you want the FloWallet files to be downloaded and then run the below command.
 
@@ -22,7 +27,7 @@ How to install:
 4. Run server
 
    node ./bin/www
-   
+
 
 Open http://localhost:3000/ in your browser to access the wallet.
 
