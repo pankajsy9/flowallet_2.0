@@ -5,25 +5,31 @@ FloWallet can only be used to send FLO with comments, see the transaction histor
 
 How to install:
 
-1. Make a new directory, cd to it and execute the below command.
+Following installation procedure is being tested only in Ubuntu 16.04.4 LTS 64 bit. 
 
-    git clone https://github.com/pankajsy9/flowallet.git
+1. In the terminal reach the directory where you want the FloWallet files to be downloaded and then run the below command.
 
-2. Install dependancies.
+   git clone https://github.com/pankajsy9/flowallet.git
+   
+   A new directory flowallet will be created.
 
-    npm install
+2. Run below commands => 
 
-3. Run build.sh
+   cd flowallet
 
-    bash build.sh
+   sudo npm install
+
+   bash build.sh
 
 4. Run server
 
-    node ./bin/www
+   node ./bin/www
+   
 
 Open http://localhost:3000/ in your browser to access the wallet.
 
 Make sure flod is running.
+
 
 
 For login use the following key =>
