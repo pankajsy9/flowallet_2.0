@@ -23,7 +23,6 @@
     "morgan": "~1.0.0",
     "request": "^2.69.0",
     "speakeasy": "~1.0.3",
-    "static-favicon": "~1.0.0",
     "browserify": "*"
   }
 }
