@@ -56,11 +56,6 @@ function getFlodata(res,data){
 
     var transactionlist = '';
 
-    data.sort(function(a, b){
-    
-        return b.time > a.time ? 1 : -1;
-    });
-
     var transactioncount = Object.keys(data).length - 1;
     if(transactioncount == -1){
        res.json({});
@@ -76,15 +71,18 @@ var counter    = 0;
 
 function createTransactionDataList(floData, item, res, transactioncount){
 
-    jsonstring += '{"time":' + item.time + ', "amount":' + item.amount + ', "flodata":"' + floData + '", "confirmations":' + item.confirmations +'}';
-    
-    jsonstring += ',';
+    jsonstring += '{"time":' + item.time + ', "amount":' + item.amount + ', "flodata":"' + floData + '", "confirmations":' + item.confirmations +'},';
 
     if(counter++ == transactioncount){
         jsonstring = jsonstring.replace(/,$/, "");
         jsonstring += ']';
         var data = JSON.parse(jsonstring);
         // console.log(data);
+        
+        data.sort(function(a, b){
+            return b.time > a.time ? 1 : -1;
+        });
+        
         jsonstring = '[';
         counter    = 0;
         res.json(data);
