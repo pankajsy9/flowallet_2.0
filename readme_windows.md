@@ -20,8 +20,6 @@ FloWallet can only be used to send FLO with comments, see the transaction histor
 
    `sudo npm install`
 
-   `handlebars views/partials/ -f public/assets/js/hbpartials.js`
-
    `browserify public/assets/js/wallet.js -o public/assets/js/walletbundle.js`
 
 3. Run server
