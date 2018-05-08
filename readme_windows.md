@@ -31,7 +31,7 @@ Installation:
 
 Open http://localhost:3000/ in your browser to access the wallet.
 
-Make sure flod is running.
+Make sure flod is running. If flocore wallet is installed then flod will be running in the background.
 
 
 
