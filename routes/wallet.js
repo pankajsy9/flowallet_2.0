@@ -1,7 +1,6 @@
 var express = require('express');
 var crypto = require('crypto');
 var router = express.Router();
-var s = require('speakeasy');
 
 var eccrypto = require("eccrypto");
 
