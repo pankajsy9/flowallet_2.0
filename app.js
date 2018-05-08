@@ -3,8 +3,8 @@ var express = require('express'),
 var https = require('https');
 var fs = require('fs');
 var path = require('path');
-var logger = require('morgan');
-var cookieParser = require('cookie-parser');
+//var logger = require('morgan');
+//var cookieParser = require('cookie-parser');
 var bodyParser = require('body-parser');
 var dns = require('dns');
 //var process = require('process');
@@ -48,10 +48,10 @@ app.set('view engine', 'handlebars');
 
 //app.set('view engine', 'jade');
 
-app.use(logger('dev'));
+//app.use(logger('dev'));
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded());
-app.use(cookieParser());
+//app.use(cookieParser());
 app.use(express.static(path.join(__dirname, 'public')));
 
 
