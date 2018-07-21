@@ -1,20 +1,28 @@
-FloWallet
----------
 
-FloWallet can only be used to send FLO with comments, see the transaction history and wallet balance.
+Flowallet is a web browser based software used for sending FLO (crypto coins) into the crypto account (address) of another user. This is called a transaction.
+You can also add comments to a transaction.
 
-**Installation in Windows:**
+User has to open the software using a URL in a web browser. Login is performed after that. Currently the credentials are hardcoded.
 
-Just run the batch file Installers/window.sh
+History of transactions can be seen. There is no limit to the history.
 
-After completion of the batch file execution open `http://localhost:3000/` in your browser to access the wallet.
+Available balance of FLO can also be seen in the browser.
 
-
-**Installation in Linux:**
-
-Just run the shell script Installers/linux.sh
-
-After completion of the shell script execution open `http://localhost:3000/` in your browser to access the wallet.
+Flowallet connects to the local flocore wallet and communicates with it to perform transaction and data fetch.
 
 
-Make sure `flod` is running. If flocore wallet is installed then `flod` will be running in the background.
+Installation
+-----------------
+
+**Prerequisites**
+------------------
+Following softwares are required for the installation process :
+Flocore wallet, Github client, NPM, NodeJS
+
+Flocore wallet exe can be downloaded from the below link:
+	https://www.flo.cash/
+After installing flocore from the exe start the flo daemon so that the wallet service starts running in the background.
+
+Flowallet can be installed by running window.bat present in Installers folder.
+
+After successfully performing the above step open the link http://localhost:3000 in browser to use the wallet.
