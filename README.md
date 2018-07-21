@@ -1,4 +1,3 @@
-
 Flowallet is a web browser based software used for sending FLO (crypto coins) into the crypto account (address) of another user. This is called a transaction.
 You can also add comments to a transaction.
 
@@ -11,19 +10,20 @@ Available balance of FLO can also be seen in the browser.
 Flowallet connects to the local flocore wallet and communicates with it to perform transaction and data fetch.
 
 
-Installation Prerequisites
---------------------------
+Installation Prerequisites for Windows
+---------------------------------------
 
 Following softwares are required for the installation process :
 Flocore wallet, Github client, NPM, NodeJS
 
 Flocore wallet exe can be downloaded from the below link:
 	https://www.flo.cash/
+	
 After installing flocore from the exe start the flo daemon so that the wallet service starts running in the background.
 
 
-Installation
------------------
+Installation for Windows
+-------------------------
 
 Flowallet can be installed by running window.bat present in Installers folder.
 
