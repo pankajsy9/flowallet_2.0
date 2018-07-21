@@ -11,17 +11,19 @@ Available balance of FLO can also be seen in the browser.
 Flowallet connects to the local flocore wallet and communicates with it to perform transaction and data fetch.
 
 
-Installation
------------------
+Installation Prerequisites
+--------------------------
 
-**Prerequisites**
-------------------
 Following softwares are required for the installation process :
 Flocore wallet, Github client, NPM, NodeJS
 
 Flocore wallet exe can be downloaded from the below link:
 	https://www.flo.cash/
 After installing flocore from the exe start the flo daemon so that the wallet service starts running in the background.
+
+
+Installation
+-----------------
 
 Flowallet can be installed by running window.bat present in Installers folder.
 
