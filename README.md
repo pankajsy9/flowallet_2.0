@@ -14,12 +14,16 @@ Installation Prerequisites for Windows
 ---------------------------------------
 
 Following softwares are required for the installation process :
-Flocore wallet, Github client, NPM, NodeJS
+
+		Flocore wallet, Github client, NPM, NodeJS
+
 
 Flocore wallet exe can be downloaded from the below link:
 	https://www.flo.cash/
 	
 After installing flocore from the exe start the flo daemon so that the wallet service starts running in the background.
+
+Similarly other prerequisites namely Github, NPM and NodeJS can be installed.
 
 
 Installation for Windows
