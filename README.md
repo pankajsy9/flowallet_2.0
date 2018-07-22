@@ -35,7 +35,7 @@ NodeJS and NPM :  http://blog.teamtreehouse.com/install-node-js-npm-windows
 Installation for Windows
 -------------------------
 
-Flowallet can be installed by running window.bat from command prompt present in Installers folder.
+Flowallet can be installed by running window.bat from command prompt. File is present in Installers folder.
 
 After successfully performing the above step open the link http://localhost:3000 in browser to use the wallet.
 
