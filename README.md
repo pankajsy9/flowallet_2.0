@@ -37,7 +37,6 @@ Installation for Windows
 
 Flowallet can be installed by running window.bat from command prompt. File is present in Installers folder.
 
-After successfully performing the above step open the link http://localhost:3000 in browser to use the wallet.
 
 
 Installation Prerequisites for Ubuntu
@@ -64,4 +63,13 @@ Installation for Ubuntu
 
 Flowallet can be installed by running linux.sh from the terminal. File is present in Installers folder.
 
-After successfully performing the above step open the link http://localhost:3000 in browser to use the wallet.
+
+
+How to use ?
+--------------
+
+After successfully performing the installation open the link http://localhost:3000 in browser.
+
+A login page is loaded. User has to put a valid public key and press submit button.
+
+For convenience a default public key is hardcoded in the login page. So just press submit and the wallet will be loaded.
