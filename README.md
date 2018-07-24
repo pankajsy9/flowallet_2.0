@@ -23,7 +23,7 @@ Following softwares are required for the installation process :
 Flocore wallet exe can be downloaded from the following link:
 	https://www.flo.cash/
 
-After installing above from the exe start the flo daemon `flod` from the command prompt so that the wallet service starts running in the background.
+After installing above from the exe start the flo daemon `flod` from the command prompt so that the wallet service starts running in the background. Command is `flod -daemon`.
 
 Github can be installed from following link :
 	https://git-scm.com/download/win
@@ -49,7 +49,7 @@ Following softwares are required for the installation process :
 Flocore wallet exe can be downloaded from the following link:
 	https://www.flo.cash/
 	
-After installing flocore from the executable start the flo daemon `flod` from the terminal so that the wallet service starts running in the background.
+After installing flocore from the executable start the flo daemon `flod` from the terminal so that the wallet service starts running in the background. Command is `flod -daemon`.
 
 Github can be installed from following link :
 	https://git-scm.com/download/linux
