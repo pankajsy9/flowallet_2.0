@@ -5,7 +5,7 @@ User has to open the software using a URL in a web browser. Login is performed a
 
 More details are mentioned in the "How to use ?" section below.
 
-Flowallet connects to the local flocore wallet and communicates with it to perform transaction and data fetch.
+Flowallet connects to the local flocore wallet and communicates with it to perform transactions and data fetch.
 
 Flowallet is accessed through URL. To make this possible NodeJS is used.
 The server is in NodeJS. This allows us to use bitcoin JS libraries on the server side. On top of this, NodeJS is well known enough that others can easily contribute.
@@ -22,8 +22,8 @@ Following softwares are required for the installation process :
 
 Flocore wallet exe can be downloaded from the following link:
 	https://www.flo.cash/
-	
-After installing flocore from the exe start the flo daemon so that the wallet service starts running in the background.
+
+After installing above from the exe start the flo daemon `flod` from the command prompt so that the wallet service starts running in the background.
 
 Github can be installed from following link :
 	https://git-scm.com/download/win
@@ -49,7 +49,7 @@ Following softwares are required for the installation process :
 Flocore wallet exe can be downloaded from the following link:
 	https://www.flo.cash/
 	
-After installing flocore from the exe start the flo daemon so that the wallet service starts running in the background.
+After installing flocore from the executable start the flo daemon `flod` from the terminal so that the wallet service starts running in the background.
 
 Github can be installed from following link :
 	https://git-scm.com/download/linux
