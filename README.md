@@ -3,7 +3,7 @@ You can also add comments to a transaction.
 
 User has to open the software using a URL in a web browser. Login is performed after that.
 
-More details are mentioned in the "How to use ?" section later.
+More details are mentioned in the "How to use ?" section below.
 
 Flowallet connects to the local flocore wallet and communicates with it to perform transaction and data fetch.
 
@@ -11,8 +11,9 @@ Flowallet is accessed through URL. To make this possible NodeJS is used.
 The server is in NodeJS. This allows us to use bitcoin JS libraries on the server side. On top of this, NodeJS is well known enough that others can easily contribute.
 
 
-Installation Prerequisites for Windows
----------------------------------------
+## Installation for Windows
+
+### Prerequisites
 
 Following softwares are required for the installation process :
 
@@ -30,15 +31,15 @@ Github can be installed from following link :
 NodeJS and NPM :  http://blog.teamtreehouse.com/install-node-js-npm-windows
 
 
-Installation for Windows
--------------------------
+### Process
 
 Flowallet can be installed by running window.bat from command prompt. File is present in Installers folder.
 
 
 
-Installation Prerequisites for Ubuntu
----------------------------------------
+## Installation for Ubuntu
+
+### Prerequisites
 
 Following softwares are required for the installation process :
 
@@ -56,8 +57,7 @@ Github can be installed from following link :
 NodeJS and NPM :  https://www.digitalocean.com/community/tutorials/how-to-install-node-js-on-ubuntu-16-04
 
 
-Installation for Ubuntu
--------------------------
+### Process
 
 Flowallet can be installed by running linux.sh from the terminal. File is present in Installers folder.
 
@@ -105,6 +105,7 @@ Public and Private key pair is generated using crypto and eccrypto NodeJS packag
        var publicKey = eccrypto.getPublic(privateKey).toString("hex");
 
 
-After generation the key pair is stored in `public/keys.txt` separated by a delimiter (:).
+After generation the key pair is stored in `public/keys.txt` separated by a delimiter (:). <br>
+Storage is done manually i.e opening the above text file and adding the key pair in the format `public_key:private_key`
 
 After storage the public key is used for login.
