@@ -31,12 +31,6 @@ Github can be installed from following link :
 NodeJS and NPM :  http://blog.teamtreehouse.com/install-node-js-npm-windows
 
 
-### Process
-
-Flowallet can be installed by running window.bat from command prompt. File is present in Installers folder.
-
-
-
 ## Installation for Ubuntu
 
 ### Prerequisites
@@ -55,11 +49,6 @@ Github can be installed from following link :
 	https://git-scm.com/download/linux
 	
 NodeJS and NPM :  https://www.digitalocean.com/community/tutorials/how-to-install-node-js-on-ubuntu-16-04
-
-
-### Process
-
-Flowallet can be installed by running linux.sh from the terminal. File is present in Installers folder.
 
 
 How to use ?
@@ -89,23 +78,3 @@ Infinite scrolling is enabled which means user can keep on scrolling till there 
 
 The FLO balance is shown in the top right side in large font size. It is dynamically updated i.e the balance will be updated at runtime when the "Send Coins" button is pressed and transaction is successful.
 
-
-Generation and storage of key pairs
----------------------------------------
-
-Public and Private key pair is generated using crypto and eccrypto NodeJS packages. Code is shown below.
-	
-	var crypto   = require("crypto");
-	var eccrypto = require("eccrypto");
-
-	// A new random 32-byte private key. 
-       var privateKey = crypto.randomBytes(32).toString("hex");
-	   
-    // Corresponding uncompressed (65-byte) public key. 
-       var publicKey = eccrypto.getPublic(privateKey).toString("hex");
-
-
-After generation the key pair is stored in `public/keys.txt` separated by a delimiter (:). <br>
-Storage is done manually i.e opening the above text file and adding the key pair in the format `public_key:private_key`
-
-After storage the public key is used for login.
