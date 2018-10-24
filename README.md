@@ -13,13 +13,9 @@ Flowallet is accessed through URL. To make this possible NodeJS is used.
 How to use ?
 --------------
 
-After successfully performing the installation open the link http://localhost:3000 in browser.
-
-Login page is loaded. User has to put a valid public key and press login button. Screenshot is shown below.
+Login page is seen below. User has to put a valid public key and press login button. Screenshot is shown below.
 
 <img src="screenshots/login.png" width="500">
-
-The generation of public and private key pair is explained after this section.
 
 For convenience a default public key is hardcoded in the login page. So just press login button and below page is loaded.
 
