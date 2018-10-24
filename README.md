@@ -11,7 +11,7 @@ Flowallet is accessed through URL. To make this possible NodeJS is used.
 The server is in NodeJS. This allows us to use bitcoin JS libraries on the server side. On top of this, NodeJS is well known enough that others can easily contribute.
 
 
-## Installation for Windows
+## Installation
 
 ### Prerequisites
 
@@ -20,35 +20,7 @@ Following softwares are required for the installation process :
 		Flocore wallet, Github, NPM, NodeJS
 
 
-Flocore wallet exe can be downloaded from the following link:
-	https://www.flo.cash/
-
-After installing from the above exe if the flocore wallet is open then `flod` will be running in the background. The `flod` accepts commands from flowallet. If `flod` is not running in the background then open the command prompt, go to the installed directory until `flod` file is reached. Then execute the command `flod -daemon`.
-
-Github can be installed from following link :
-	https://git-scm.com/download/win
-	
-NodeJS and NPM :  http://blog.teamtreehouse.com/install-node-js-npm-windows
-
-
-## Installation for Ubuntu
-
-### Prerequisites
-
-Following softwares are required for the installation process :
-
-		Flocore wallet, Github, NPM, NodeJS
-
-
-Flocore wallet installation instructions are present in the following link :
-	http://flo-install.blogspot.com/2018/03/quick-installion-for-florincoin.html
-
-After installation if the flocore wallet is open then `flod` will be running in the background. The `flod` accepts commands from flowallet. If `flod` is not running in the background then open the terminal, go to the flo directory until `flod` file is reached. Then execute the command `./flod -daemon`.
-
-Github can be installed from following link :
-	https://git-scm.com/download/linux
-	
-NodeJS and NPM :  https://www.digitalocean.com/community/tutorials/how-to-install-node-js-on-ubuntu-16-04
+For the rest of the process contact me on pankaj.sy9@gmail.com
 
 
 How to use ?
