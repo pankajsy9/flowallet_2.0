@@ -37,15 +37,3 @@ Infinite scrolling is enabled which means user can keep on scrolling till there 
 <img src="screenshots/transactions.png" width="500">
 
 The FLO balance is shown in the top right side in large font size. It is dynamically updated i.e the balance will be updated at runtime when the "Send Coins" button is pressed and transaction is successful.
-
-
-## Installation
-
-### Prerequisites
-
-Following softwares are required for the installation process :
-
-		Flocore wallet, Github, NPM, NodeJS
-
-
-For the rest of the process contact me on pankaj.sy9@gmail.com
