@@ -8,7 +8,6 @@ More details are mentioned in the "How to use ?" section below.
 Flowallet connects to the local flocore wallet and communicates with it to perform transactions and data fetch.
 
 Flowallet is accessed through URL. To make this possible NodeJS is used.
-The server is in NodeJS. This allows us to use bitcoin JS libraries on the server side. On top of this, NodeJS is well known enough that others can easily contribute.
 
 
 How to use ?
