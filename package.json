@@ -12,7 +12,7 @@
     "browserify": "*",
     "buffer": "^5.1.0",
     "constantinople": "^3.1.2",
-    "debug": "~0.7.4",
+    "debug": "~4.1.1",
     "eccrypto": "^1.0.3",
     "express": "~4.2.0",
     "express-handlebars": "^3.0.0",
