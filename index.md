@@ -10,7 +10,7 @@ Flowallet connects to the local flocore wallet and communicates with it to perfo
 Flowallet is accessed through URL. To make this possible NodeJS is used.
 The server is in NodeJS. This allows us to use bitcoin JS libraries on the server side. On top of this, NodeJS is well known enough that others can easily contribute.
 
-**Demo** :  [Flowallet deployed on Heroku](https://agile-tor-53581.herokuapp.com/)
+**Demo** :  [Demo of Flowallet deployed on Heroku](https://agile-tor-53581.herokuapp.com/)
 
 
 ## Installation Prerequisites for Windows
@@ -52,7 +52,7 @@ NodeJS and NPM :  https://www.digitalocean.com/community/tutorials/how-to-instal
 How to use ?
 --------------
 
-After successfully performing the installation open the link [Localhost](http://localhost:3000) in browser.
+After successfully performing the installation open the link [localhost](http://localhost:3000) in browser.
 
 Login page is loaded. User has to put a valid public key and press login button. Screenshot is shown below.
 
