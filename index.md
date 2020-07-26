@@ -10,7 +10,7 @@ Flowallet connects to the local flocore wallet and communicates with it to perfo
 Flowallet is accessed through URL. To make this possible NodeJS is used.
 The server is in NodeJS. This allows us to use bitcoin JS libraries on the server side. On top of this, NodeJS is well known enough that others can easily contribute.
 
-**Demo** :  https://agile-tor-53581.herokuapp.com/
+**Demo** :  [Flowallet deployed on Heroku](https://agile-tor-53581.herokuapp.com/)
 
 
 ## Installation Prerequisites for Windows
@@ -21,14 +21,14 @@ Following softwares are required for the installation process :
 
 
 Flocore wallet exe can be downloaded from the following link:
-	https://www.flo.cash/
+	[https://www.flo.cash/](https://www.flo.cash/)
 
 After installing from the above exe if the flocore wallet is open then `flod` will be running in the background. The `flod` accepts commands from flowallet. If `flod` is not running in the background then open the command prompt, go to the installed directory until `flod` file is reached. Then execute the command `flod -daemon`.
 
 Github can be installed from following link :
-	https://git-scm.com/download/win
+	[https://git-scm.com/download/win](https://git-scm.com/download/win)
 	
-NodeJS and NPM :  http://blog.teamtreehouse.com/install-node-js-npm-windows
+NodeJS and NPM :  [http://blog.teamtreehouse.com/install-node-js-npm-windows](http://blog.teamtreehouse.com/install-node-js-npm-windows)
 
 
 ## Installation Prerequisites for Ubuntu
@@ -52,7 +52,7 @@ NodeJS and NPM :  https://www.digitalocean.com/community/tutorials/how-to-instal
 How to use ?
 --------------
 
-After successfully performing the installation open the link http://localhost:3000 in browser.
+After successfully performing the installation open the link [Localhost](http://localhost:3000) in browser.
 
 Login page is loaded. User has to put a valid public key and press login button. Screenshot is shown below.
 
